@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+    <script defer src="./main.js"></script>
+    <style>
+        #TodoInput::placeholder{
+            text-align: center;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <input type="text" placeholder="INPUT" id="TodoInput">
+    <button type="button" id="btn" onclick="addText()">Add</button>
+    <h3 id="errorText" style="display: none; color: rgb(236, 81, 81);"></h3>
+
+    <ul id="todolist"></ul>
+
+    <div id="storage">
+
+    </div>
+
+</body>
+
+</html>
